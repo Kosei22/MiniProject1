@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class inputChar {
+public class guessTheCity {
     public static void main(String[] args) {
         //-----------------------------------------------------------------------------------------------------
 //        file scan
@@ -52,7 +52,7 @@ public class inputChar {
         int a = 0;
 //---------------------------------------------------------------------------------------------------------------
 //       loop until end && user input
-        System.out.println(cityName);
+        
         for (int n = 0; wrongNum < 10 ; n++) {
 
             Scanner inputChar = new Scanner(System.in);
